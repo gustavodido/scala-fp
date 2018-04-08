@@ -20,6 +20,5 @@ class InOutTest extends FlatSpec {
     }
 
     assert(out.toString == output)
-
   }
 }
