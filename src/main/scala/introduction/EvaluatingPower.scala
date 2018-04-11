@@ -7,7 +7,7 @@ import language.postfixOps
 class EvaluatingPower {
 
   implicit class IntegerExtensions(wrapped: Int) {
-    def fact() = (2 to wrapped).product
+    def fact() = 2.to(wrapped).product
   }
 
   def f(num: Double): String = {
